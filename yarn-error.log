@@ -1,0 +1,61 @@
+Arguments: 
+  /opt/local/bin/node /opt/local/libexec/yarn/bin/yarn.js add native-base --save
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.18.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/Users/crislizame/Dropbox/GrupoLizameRed/DepartamentodeSistemas/reactnative/Pruebas1/node_modules/@react-native-community/masked-view/.eslintrc.js'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^10.0.6",
+      "@react-native-community/masked-view": "0.1.5",
+      "expo": "~36.0.0",
+      "expo-constants": "~8.0.0",
+      "expo-font": "~8.0.0",
+      "expo-linear-gradient": "~8.0.0",
+      "native-base": "^2.13.8",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-gesture-handler": "~1.5.0",
+      "react-native-reanimated": "~1.4.0",
+      "react-native-safe-area-context": "0.6.0",
+      "react-native-screens": "2.0.0-alpha.12",
+      "react-native-web": "~0.11.7",
+      "react-navigation": "^4.1.0",
+      "react-navigation-drawer": "^2.3.3",
+      "react-navigation-stack": "^2.0.16",
+      "react-navigation-tabs": "^2.7.0"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.0.0",
+      "@babel/core": "^7.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

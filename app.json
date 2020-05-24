@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "testprivategl",
+    "slug": "testprivategl",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "ios": {
+      "bundleIdentifier": "com.grupolizame.testprivategl",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "notification": {
+      "icon": "./assets/iconnoti.png",
+      "color": "#000000"
+    },
+    "android": {
+      "package": "com.grupolizame.testprivategl",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+
+  }
+}
