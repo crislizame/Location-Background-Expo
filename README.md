@@ -1,3 +1,4 @@
+
 # Location-Background-Expo
 
 **App.Json**
@@ -25,11 +26,14 @@
          "FOREGROUND_SERVICE"
        ]
      }
+
      
-Archivo Prueba
+**Home.js**
 
     
-    import React from 'react';
+   
+
+     import React from 'react';
      import { Text, TouchableOpacity } from 'react-native';
      //taskmanager para las tareas
      import * as TaskManager from 'expo-task-manager';
